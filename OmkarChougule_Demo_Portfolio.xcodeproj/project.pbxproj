@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		424935EA2D42BAFC007F48FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424935BE2D42BAFC007F48FA /* Assets.xcassets */; };
+		424935EB2D42BAFC007F48FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424935BF2D42BAFC007F48FA /* LaunchScreen.storyboard */; };
+		424935EC2D42BAFC007F48FA /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935C32D42BAFC007F48FA /* UIFont+Extension.swift */; };
+		424935ED2D42BAFC007F48FA /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935C42D42BAFC007F48FA /* UIColor+Extension.swift */; };
+		424935EE2D42BAFC007F48FA /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935C52D42BAFC007F48FA /* Double+Extension.swift */; };
+		424935EF2D42BAFC007F48FA /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935C62D42BAFC007F48FA /* NSMutableAttributedString+Extension.swift */; };
+		424935F02D42BAFC007F48FA /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935C72D42BAFC007F48FA /* UIStackView+Extension.swift */; };
+		424935F12D42BAFC007F48FA /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935C82D42BAFC007F48FA /* Array+Extension.swift */; };
+		424935F22D42BAFC007F48FA /* HoldingsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935CB2D42BAFC007F48FA /* HoldingsDTO.swift */; };
+		424935F32D42BAFC007F48FA /* HoldingsRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935CD2D42BAFC007F48FA /* HoldingsRepositoryImpl.swift */; };
+		424935F42D42BAFC007F48FA /* HoldingsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935D02D42BAFC007F48FA /* HoldingsRepository.swift */; };
+		424935F52D42BAFC007F48FA /* UserHolding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935D22D42BAFC007F48FA /* UserHolding.swift */; };
+		424935F62D42BAFC007F48FA /* Holdings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935D32D42BAFC007F48FA /* Holdings.swift */; };
+		424935F72D42BAFC007F48FA /* GetHoldingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935D52D42BAFC007F48FA /* GetHoldingUseCase.swift */; };
+		424935F82D42BAFC007F48FA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935D72D42BAFC007F48FA /* NetworkManager.swift */; };
+		424935F92D42BAFC007F48FA /* HoldingsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935D92D42BAFC007F48FA /* HoldingsEndpoint.swift */; };
+		424935FA2D42BAFC007F48FA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935DA2D42BAFC007F48FA /* Endpoint.swift */; };
+		424935FB2D42BAFC007F48FA /* HoldingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935DD2D42BAFC007F48FA /* HoldingsViewModel.swift */; };
+		424935FC2D42BAFC007F48FA /* HoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935DF2D42BAFC007F48FA /* HoldingCell.swift */; };
+		424935FD2D42BAFC007F48FA /* InvestmentViewAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935E02D42BAFC007F48FA /* InvestmentViewAttributes.swift */; };
+		424935FE2D42BAFC007F48FA /* InvestmentBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935E12D42BAFC007F48FA /* InvestmentBottomView.swift */; };
+		424935FF2D42BAFC007F48FA /* HoldingCellAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935E22D42BAFC007F48FA /* HoldingCellAttribute.swift */; };
+		424936002D42BAFC007F48FA /* HoldingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935E42D42BAFC007F48FA /* HoldingsViewController.swift */; };
+		424936012D42BAFC007F48FA /* BottomViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935E52D42BAFC007F48FA /* BottomViewState.swift */; };
+		424936022D42BAFC007F48FA /* HoldingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935E72D42BAFC007F48FA /* HoldingRouter.swift */; };
+		424936032D42BAFC007F48FA /* HoldingResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935E92D42BAFC007F48FA /* HoldingResolver.swift */; };
+		424936052D42C6D1007F48FA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424936042D42C6D1007F48FA /* LoadingView.swift */; };
 		42ED87E92D40A247008B29E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED87E82D40A247008B29E0 /* AppDelegate.swift */; };
 		42ED87EB2D40A247008B29E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED87EA2D40A247008B29E0 /* SceneDelegate.swift */; };
 		42ED87ED2D40A247008B29E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED87EC2D40A247008B29E0 /* ViewController.swift */; };
-		42ED87F02D40A247008B29E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ED87EE2D40A247008B29E0 /* Main.storyboard */; };
-		42ED87F22D40A24A008B29E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42ED87F12D40A24A008B29E0 /* Assets.xcassets */; };
-		42ED87F52D40A24A008B29E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ED87F32D40A24A008B29E0 /* LaunchScreen.storyboard */; };
 		42ED88002D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED87FF2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests.swift */; };
 		42ED880A2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED88092D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests.swift */; };
 		42ED880C2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED880B2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITestsLaunchTests.swift */; };
@@ -36,13 +60,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		424935BE2D42BAFC007F48FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		424935C02D42BAFC007F48FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		424935C32D42BAFC007F48FA /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		424935C42D42BAFC007F48FA /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		424935C52D42BAFC007F48FA /* Double+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		424935C62D42BAFC007F48FA /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		424935C72D42BAFC007F48FA /* UIStackView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		424935C82D42BAFC007F48FA /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		424935CB2D42BAFC007F48FA /* HoldingsDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingsDTO.swift; sourceTree = "<group>"; };
+		424935CD2D42BAFC007F48FA /* HoldingsRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingsRepositoryImpl.swift; sourceTree = "<group>"; };
+		424935D02D42BAFC007F48FA /* HoldingsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingsRepository.swift; sourceTree = "<group>"; };
+		424935D22D42BAFC007F48FA /* UserHolding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHolding.swift; sourceTree = "<group>"; };
+		424935D32D42BAFC007F48FA /* Holdings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Holdings.swift; sourceTree = "<group>"; };
+		424935D52D42BAFC007F48FA /* GetHoldingUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetHoldingUseCase.swift; sourceTree = "<group>"; };
+		424935D72D42BAFC007F48FA /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		424935D92D42BAFC007F48FA /* HoldingsEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingsEndpoint.swift; sourceTree = "<group>"; };
+		424935DA2D42BAFC007F48FA /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		424935DD2D42BAFC007F48FA /* HoldingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingsViewModel.swift; sourceTree = "<group>"; };
+		424935DF2D42BAFC007F48FA /* HoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingCell.swift; sourceTree = "<group>"; };
+		424935E02D42BAFC007F48FA /* InvestmentViewAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentViewAttributes.swift; sourceTree = "<group>"; };
+		424935E12D42BAFC007F48FA /* InvestmentBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentBottomView.swift; sourceTree = "<group>"; };
+		424935E22D42BAFC007F48FA /* HoldingCellAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingCellAttribute.swift; sourceTree = "<group>"; };
+		424935E42D42BAFC007F48FA /* HoldingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingsViewController.swift; sourceTree = "<group>"; };
+		424935E52D42BAFC007F48FA /* BottomViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewState.swift; sourceTree = "<group>"; };
+		424935E72D42BAFC007F48FA /* HoldingRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingRouter.swift; sourceTree = "<group>"; };
+		424935E92D42BAFC007F48FA /* HoldingResolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingResolver.swift; sourceTree = "<group>"; };
+		424936042D42C6D1007F48FA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		42ED87E52D40A247008B29E0 /* OmkarChougule_Demo_Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmkarChougule_Demo_Portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ED87E82D40A247008B29E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42ED87EA2D40A247008B29E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		42ED87EC2D40A247008B29E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		42ED87EF2D40A247008B29E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		42ED87F12D40A24A008B29E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		42ED87F42D40A24A008B29E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42ED87F62D40A24A008B29E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42ED87FB2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmkarChougule_Demo_PortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ED87FF2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmkarChougule_Demo_PortfolioTests.swift; sourceTree = "<group>"; };
@@ -76,6 +124,175 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		424935BD2D42BAFC007F48FA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				424935BE2D42BAFC007F48FA /* Assets.xcassets */,
+				424935BF2D42BAFC007F48FA /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		424935C12D42BAFC007F48FA /* source */ = {
+			isa = PBXGroup;
+			children = (
+				424935C22D42BAFC007F48FA /* Extension */,
+				424935C92D42BAFC007F48FA /* Data */,
+				424935CE2D42BAFC007F48FA /* Domain */,
+				424935D62D42BAFC007F48FA /* NetworkClient */,
+				424935DB2D42BAFC007F48FA /* Presentation */,
+				424935E62D42BAFC007F48FA /* Router */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		424935C22D42BAFC007F48FA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				424935C32D42BAFC007F48FA /* UIFont+Extension.swift */,
+				424935C42D42BAFC007F48FA /* UIColor+Extension.swift */,
+				424935C52D42BAFC007F48FA /* Double+Extension.swift */,
+				424935C62D42BAFC007F48FA /* NSMutableAttributedString+Extension.swift */,
+				424935C72D42BAFC007F48FA /* UIStackView+Extension.swift */,
+				424935C82D42BAFC007F48FA /* Array+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		424935C92D42BAFC007F48FA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				424935CA2D42BAFC007F48FA /* DTO */,
+				424935CC2D42BAFC007F48FA /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		424935CA2D42BAFC007F48FA /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				424935CB2D42BAFC007F48FA /* HoldingsDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		424935CC2D42BAFC007F48FA /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				424935CD2D42BAFC007F48FA /* HoldingsRepositoryImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		424935CE2D42BAFC007F48FA /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				424935CF2D42BAFC007F48FA /* Repository */,
+				424935D12D42BAFC007F48FA /* Model */,
+				424935D42D42BAFC007F48FA /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		424935CF2D42BAFC007F48FA /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				424935D02D42BAFC007F48FA /* HoldingsRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		424935D12D42BAFC007F48FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				424935D22D42BAFC007F48FA /* UserHolding.swift */,
+				424935D32D42BAFC007F48FA /* Holdings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		424935D42D42BAFC007F48FA /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				424935D52D42BAFC007F48FA /* GetHoldingUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		424935D62D42BAFC007F48FA /* NetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				424935D72D42BAFC007F48FA /* NetworkManager.swift */,
+				424935D82D42BAFC007F48FA /* AppEndpoints */,
+				424935DA2D42BAFC007F48FA /* Endpoint.swift */,
+			);
+			path = NetworkClient;
+			sourceTree = "<group>";
+		};
+		424935D82D42BAFC007F48FA /* AppEndpoints */ = {
+			isa = PBXGroup;
+			children = (
+				424935D92D42BAFC007F48FA /* HoldingsEndpoint.swift */,
+			);
+			path = AppEndpoints;
+			sourceTree = "<group>";
+		};
+		424935DB2D42BAFC007F48FA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				424935DC2D42BAFC007F48FA /* ViewModel */,
+				424935DE2D42BAFC007F48FA /* View */,
+				424935E32D42BAFC007F48FA /* ViewController */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		424935DC2D42BAFC007F48FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				424935DD2D42BAFC007F48FA /* HoldingsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		424935DE2D42BAFC007F48FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				424935DF2D42BAFC007F48FA /* HoldingCell.swift */,
+				424935E02D42BAFC007F48FA /* InvestmentViewAttributes.swift */,
+				424935E12D42BAFC007F48FA /* InvestmentBottomView.swift */,
+				424935E22D42BAFC007F48FA /* HoldingCellAttribute.swift */,
+				424936042D42C6D1007F48FA /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		424935E32D42BAFC007F48FA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				424935E42D42BAFC007F48FA /* HoldingsViewController.swift */,
+				424935E52D42BAFC007F48FA /* BottomViewState.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		424935E62D42BAFC007F48FA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				424935E72D42BAFC007F48FA /* HoldingRouter.swift */,
+				424935E82D42BAFC007F48FA /* Resolver */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		424935E82D42BAFC007F48FA /* Resolver */ = {
+			isa = PBXGroup;
+			children = (
+				424935E92D42BAFC007F48FA /* HoldingResolver.swift */,
+			);
+			path = Resolver;
+			sourceTree = "<group>";
+		};
 		42ED87DC2D40A247008B29E0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +316,11 @@
 		42ED87E72D40A247008B29E0 /* OmkarChougule_Demo_Portfolio */ = {
 			isa = PBXGroup;
 			children = (
+				424935BD2D42BAFC007F48FA /* Assets */,
+				424935C12D42BAFC007F48FA /* source */,
 				42ED87E82D40A247008B29E0 /* AppDelegate.swift */,
 				42ED87EA2D40A247008B29E0 /* SceneDelegate.swift */,
 				42ED87EC2D40A247008B29E0 /* ViewController.swift */,
-				42ED87EE2D40A247008B29E0 /* Main.storyboard */,
-				42ED87F12D40A24A008B29E0 /* Assets.xcassets */,
-				42ED87F32D40A24A008B29E0 /* LaunchScreen.storyboard */,
 				42ED87F62D40A24A008B29E0 /* Info.plist */,
 			);
 			path = OmkarChougule_Demo_Portfolio;
@@ -231,9 +447,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42ED87F52D40A24A008B29E0 /* LaunchScreen.storyboard in Resources */,
-				42ED87F22D40A24A008B29E0 /* Assets.xcassets in Resources */,
-				42ED87F02D40A247008B29E0 /* Main.storyboard in Resources */,
+				424935EA2D42BAFC007F48FA /* Assets.xcassets in Resources */,
+				424935EB2D42BAFC007F48FA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +473,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424935FE2D42BAFC007F48FA /* InvestmentBottomView.swift in Sources */,
 				42ED87ED2D40A247008B29E0 /* ViewController.swift in Sources */,
 				42ED87E92D40A247008B29E0 /* AppDelegate.swift in Sources */,
+				424935F52D42BAFC007F48FA /* UserHolding.swift in Sources */,
+				424935EE2D42BAFC007F48FA /* Double+Extension.swift in Sources */,
+				424936052D42C6D1007F48FA /* LoadingView.swift in Sources */,
+				424935F82D42BAFC007F48FA /* NetworkManager.swift in Sources */,
+				424935FC2D42BAFC007F48FA /* HoldingCell.swift in Sources */,
+				424935F12D42BAFC007F48FA /* Array+Extension.swift in Sources */,
+				424936032D42BAFC007F48FA /* HoldingResolver.swift in Sources */,
+				424935EC2D42BAFC007F48FA /* UIFont+Extension.swift in Sources */,
+				424935EF2D42BAFC007F48FA /* NSMutableAttributedString+Extension.swift in Sources */,
+				424935F32D42BAFC007F48FA /* HoldingsRepositoryImpl.swift in Sources */,
+				424935F42D42BAFC007F48FA /* HoldingsRepository.swift in Sources */,
+				424936012D42BAFC007F48FA /* BottomViewState.swift in Sources */,
+				424935FA2D42BAFC007F48FA /* Endpoint.swift in Sources */,
+				424935F02D42BAFC007F48FA /* UIStackView+Extension.swift in Sources */,
 				42ED87EB2D40A247008B29E0 /* SceneDelegate.swift in Sources */,
+				424935FF2D42BAFC007F48FA /* HoldingCellAttribute.swift in Sources */,
+				424935ED2D42BAFC007F48FA /* UIColor+Extension.swift in Sources */,
+				424935F22D42BAFC007F48FA /* HoldingsDTO.swift in Sources */,
+				424935FD2D42BAFC007F48FA /* InvestmentViewAttributes.swift in Sources */,
+				424935F72D42BAFC007F48FA /* GetHoldingUseCase.swift in Sources */,
+				424935F62D42BAFC007F48FA /* Holdings.swift in Sources */,
+				424935FB2D42BAFC007F48FA /* HoldingsViewModel.swift in Sources */,
+				424936002D42BAFC007F48FA /* HoldingsViewController.swift in Sources */,
+				424936022D42BAFC007F48FA /* HoldingRouter.swift in Sources */,
+				424935F92D42BAFC007F48FA /* HoldingsEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,18 +537,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		42ED87EE2D40A247008B29E0 /* Main.storyboard */ = {
+		424935BF2D42BAFC007F48FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				42ED87EF2D40A247008B29E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		42ED87F32D40A24A008B29E0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42ED87F42D40A24A008B29E0 /* Base */,
+				424935C02D42BAFC007F48FA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -447,7 +679,6 @@
 				INFOPLIST_FILE = OmkarChougule_Demo_Portfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +706,6 @@
 				INFOPLIST_FILE = OmkarChougule_Demo_Portfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

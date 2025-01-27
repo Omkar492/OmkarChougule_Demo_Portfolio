@@ -34,23 +34,19 @@
 		424936022D42BAFC007F48FA /* HoldingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935E72D42BAFC007F48FA /* HoldingRouter.swift */; };
 		424936032D42BAFC007F48FA /* HoldingResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424935E92D42BAFC007F48FA /* HoldingResolver.swift */; };
 		424936052D42C6D1007F48FA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424936042D42C6D1007F48FA /* LoadingView.swift */; };
+		424936322D4801CB007F48FA /* HoldingRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424936272D4801CB007F48FA /* HoldingRepositoryTest.swift */; };
+		424936332D4801CB007F48FA /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424936292D4801CB007F48FA /* MockNetworkManager.swift */; };
+		424936342D4801CB007F48FA /* holdings_empty_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 4249362B2D4801CB007F48FA /* holdings_empty_response.json */; };
+		424936352D4801CB007F48FA /* holdings_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 4249362C2D4801CB007F48FA /* holdings_success_response.json */; };
+		424936362D4801CB007F48FA /* holdings_failure_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 4249362D2D4801CB007F48FA /* holdings_failure_response.json */; };
+		424936372D4801CB007F48FA /* GetHoldingUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249362F2D4801CB007F48FA /* GetHoldingUseCaseTests.swift */; };
+		424936382D4801CB007F48FA /* HoldingsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424936312D4801CB007F48FA /* HoldingsViewModelTest.swift */; };
 		42ED87E92D40A247008B29E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED87E82D40A247008B29E0 /* AppDelegate.swift */; };
 		42ED87EB2D40A247008B29E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED87EA2D40A247008B29E0 /* SceneDelegate.swift */; };
-		42ED87ED2D40A247008B29E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED87EC2D40A247008B29E0 /* ViewController.swift */; };
-		42ED88002D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED87FF2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests.swift */; };
-		42ED880A2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED88092D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests.swift */; };
-		42ED880C2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED880B2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		42ED87FC2D40A24A008B29E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 42ED87DD2D40A247008B29E0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42ED87E42D40A247008B29E0;
-			remoteInfo = OmkarChougule_Demo_Portfolio;
-		};
-		42ED88062D40A24A008B29E0 /* PBXContainerItemProxy */ = {
+		424936212D480111007F48FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 42ED87DD2D40A247008B29E0 /* Project object */;
 			proxyType = 1;
@@ -87,34 +83,29 @@
 		424935E72D42BAFC007F48FA /* HoldingRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingRouter.swift; sourceTree = "<group>"; };
 		424935E92D42BAFC007F48FA /* HoldingResolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingResolver.swift; sourceTree = "<group>"; };
 		424936042D42C6D1007F48FA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		4249361D2D480111007F48FA /* OmkarChougule_Demo_PortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmkarChougule_Demo_PortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		424936272D4801CB007F48FA /* HoldingRepositoryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingRepositoryTest.swift; sourceTree = "<group>"; };
+		424936292D4801CB007F48FA /* MockNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		4249362B2D4801CB007F48FA /* holdings_empty_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = holdings_empty_response.json; sourceTree = "<group>"; };
+		4249362C2D4801CB007F48FA /* holdings_success_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = holdings_success_response.json; sourceTree = "<group>"; };
+		4249362D2D4801CB007F48FA /* holdings_failure_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = holdings_failure_response.json; sourceTree = "<group>"; };
+		4249362F2D4801CB007F48FA /* GetHoldingUseCaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetHoldingUseCaseTests.swift; sourceTree = "<group>"; };
+		424936312D4801CB007F48FA /* HoldingsViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldingsViewModelTest.swift; sourceTree = "<group>"; };
 		42ED87E52D40A247008B29E0 /* OmkarChougule_Demo_Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmkarChougule_Demo_Portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ED87E82D40A247008B29E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42ED87EA2D40A247008B29E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		42ED87EC2D40A247008B29E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42ED87F62D40A24A008B29E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42ED87FB2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmkarChougule_Demo_PortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42ED87FF2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmkarChougule_Demo_PortfolioTests.swift; sourceTree = "<group>"; };
-		42ED88052D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmkarChougule_Demo_PortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42ED88092D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmkarChougule_Demo_PortfolioUITests.swift; sourceTree = "<group>"; };
-		42ED880B2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmkarChougule_Demo_PortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4249361A2D480111007F48FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42ED87E22D40A247008B29E0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42ED87F82D40A24A008B29E0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42ED88022D40A24A008B29E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,12 +284,66 @@
 			path = Resolver;
 			sourceTree = "<group>";
 		};
+		4249361E2D480111007F48FA /* OmkarChougule_Demo_PortfolioTests */ = {
+			isa = PBXGroup;
+			children = (
+				424936282D4801CB007F48FA /* Mocks */,
+				424936262D4801CB007F48FA /* Repository */,
+				4249362E2D4801CB007F48FA /* UseCase */,
+				424936302D4801CB007F48FA /* ViewModel */,
+			);
+			path = OmkarChougule_Demo_PortfolioTests;
+			sourceTree = "<group>";
+		};
+		424936262D4801CB007F48FA /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				424936272D4801CB007F48FA /* HoldingRepositoryTest.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		424936282D4801CB007F48FA /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				424936292D4801CB007F48FA /* MockNetworkManager.swift */,
+				4249362A2D4801CB007F48FA /* Files */,
+			);
+			name = Mocks;
+			path = "../../../../Downloads/Upstox-Assignment-main-2/UpstoxHoldingTests/Mocks";
+			sourceTree = "<group>";
+		};
+		4249362A2D4801CB007F48FA /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				4249362B2D4801CB007F48FA /* holdings_empty_response.json */,
+				4249362C2D4801CB007F48FA /* holdings_success_response.json */,
+				4249362D2D4801CB007F48FA /* holdings_failure_response.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		4249362E2D4801CB007F48FA /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				4249362F2D4801CB007F48FA /* GetHoldingUseCaseTests.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		424936302D4801CB007F48FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				424936312D4801CB007F48FA /* HoldingsViewModelTest.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		42ED87DC2D40A247008B29E0 = {
 			isa = PBXGroup;
 			children = (
 				42ED87E72D40A247008B29E0 /* OmkarChougule_Demo_Portfolio */,
-				42ED87FE2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests */,
-				42ED88082D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests */,
+				4249361E2D480111007F48FA /* OmkarChougule_Demo_PortfolioTests */,
 				42ED87E62D40A247008B29E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -307,8 +352,7 @@
 			isa = PBXGroup;
 			children = (
 				42ED87E52D40A247008B29E0 /* OmkarChougule_Demo_Portfolio.app */,
-				42ED87FB2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests.xctest */,
-				42ED88052D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests.xctest */,
+				4249361D2D480111007F48FA /* OmkarChougule_Demo_PortfolioTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,32 +364,32 @@
 				424935C12D42BAFC007F48FA /* source */,
 				42ED87E82D40A247008B29E0 /* AppDelegate.swift */,
 				42ED87EA2D40A247008B29E0 /* SceneDelegate.swift */,
-				42ED87EC2D40A247008B29E0 /* ViewController.swift */,
 				42ED87F62D40A24A008B29E0 /* Info.plist */,
 			);
 			path = OmkarChougule_Demo_Portfolio;
 			sourceTree = "<group>";
 		};
-		42ED87FE2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests */ = {
-			isa = PBXGroup;
-			children = (
-				42ED87FF2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests.swift */,
-			);
-			path = OmkarChougule_Demo_PortfolioTests;
-			sourceTree = "<group>";
-		};
-		42ED88082D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests */ = {
-			isa = PBXGroup;
-			children = (
-				42ED88092D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests.swift */,
-				42ED880B2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITestsLaunchTests.swift */,
-			);
-			path = OmkarChougule_Demo_PortfolioUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4249361C2D480111007F48FA /* OmkarChougule_Demo_PortfolioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424936232D480111007F48FA /* Build configuration list for PBXNativeTarget "OmkarChougule_Demo_PortfolioTests" */;
+			buildPhases = (
+				424936192D480111007F48FA /* Sources */,
+				4249361A2D480111007F48FA /* Frameworks */,
+				4249361B2D480111007F48FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				424936222D480111007F48FA /* PBXTargetDependency */,
+			);
+			name = OmkarChougule_Demo_PortfolioTests;
+			productName = OmkarChougule_Demo_PortfolioTests;
+			productReference = 4249361D2D480111007F48FA /* OmkarChougule_Demo_PortfolioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		42ED87E42D40A247008B29E0 /* OmkarChougule_Demo_Portfolio */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42ED880F2D40A24A008B29E0 /* Build configuration list for PBXNativeTarget "OmkarChougule_Demo_Portfolio" */;
@@ -363,42 +407,6 @@
 			productReference = 42ED87E52D40A247008B29E0 /* OmkarChougule_Demo_Portfolio.app */;
 			productType = "com.apple.product-type.application";
 		};
-		42ED87FA2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42ED88122D40A24A008B29E0 /* Build configuration list for PBXNativeTarget "OmkarChougule_Demo_PortfolioTests" */;
-			buildPhases = (
-				42ED87F72D40A24A008B29E0 /* Sources */,
-				42ED87F82D40A24A008B29E0 /* Frameworks */,
-				42ED87F92D40A24A008B29E0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				42ED87FD2D40A24A008B29E0 /* PBXTargetDependency */,
-			);
-			name = OmkarChougule_Demo_PortfolioTests;
-			productName = OmkarChougule_Demo_PortfolioTests;
-			productReference = 42ED87FB2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		42ED88042D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42ED88152D40A24A008B29E0 /* Build configuration list for PBXNativeTarget "OmkarChougule_Demo_PortfolioUITests" */;
-			buildPhases = (
-				42ED88012D40A24A008B29E0 /* Sources */,
-				42ED88022D40A24A008B29E0 /* Frameworks */,
-				42ED88032D40A24A008B29E0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				42ED88072D40A24A008B29E0 /* PBXTargetDependency */,
-			);
-			name = OmkarChougule_Demo_PortfolioUITests;
-			productName = OmkarChougule_Demo_PortfolioUITests;
-			productReference = 42ED88052D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -409,16 +417,12 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					4249361C2D480111007F48FA = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 42ED87E42D40A247008B29E0;
+					};
 					42ED87E42D40A247008B29E0 = {
 						CreatedOnToolsVersion = 15.0.1;
-					};
-					42ED87FA2D40A24A008B29E0 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 42ED87E42D40A247008B29E0;
-					};
-					42ED88042D40A24A008B29E0 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 42ED87E42D40A247008B29E0;
 					};
 				};
 			};
@@ -436,13 +440,22 @@
 			projectRoot = "";
 			targets = (
 				42ED87E42D40A247008B29E0 /* OmkarChougule_Demo_Portfolio */,
-				42ED87FA2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests */,
-				42ED88042D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests */,
+				4249361C2D480111007F48FA /* OmkarChougule_Demo_PortfolioTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4249361B2D480111007F48FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424936352D4801CB007F48FA /* holdings_success_response.json in Resources */,
+				424936362D4801CB007F48FA /* holdings_failure_response.json in Resources */,
+				424936342D4801CB007F48FA /* holdings_empty_response.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42ED87E32D40A247008B29E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -452,29 +465,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42ED87F92D40A24A008B29E0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42ED88032D40A24A008B29E0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		424936192D480111007F48FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424936372D4801CB007F48FA /* GetHoldingUseCaseTests.swift in Sources */,
+				424936332D4801CB007F48FA /* MockNetworkManager.swift in Sources */,
+				424936382D4801CB007F48FA /* HoldingsViewModelTest.swift in Sources */,
+				424936322D4801CB007F48FA /* HoldingRepositoryTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42ED87E12D40A247008B29E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				424935FE2D42BAFC007F48FA /* InvestmentBottomView.swift in Sources */,
-				42ED87ED2D40A247008B29E0 /* ViewController.swift in Sources */,
 				42ED87E92D40A247008B29E0 /* AppDelegate.swift in Sources */,
 				424935F52D42BAFC007F48FA /* UserHolding.swift in Sources */,
 				424935EE2D42BAFC007F48FA /* Double+Extension.swift in Sources */,
@@ -504,35 +513,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42ED87F72D40A24A008B29E0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42ED88002D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42ED88012D40A24A008B29E0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42ED880A2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITests.swift in Sources */,
-				42ED880C2D40A24A008B29E0 /* OmkarChougule_Demo_PortfolioUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		42ED87FD2D40A24A008B29E0 /* PBXTargetDependency */ = {
+		424936222D480111007F48FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 42ED87E42D40A247008B29E0 /* OmkarChougule_Demo_Portfolio */;
-			targetProxy = 42ED87FC2D40A24A008B29E0 /* PBXContainerItemProxy */;
-		};
-		42ED88072D40A24A008B29E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 42ED87E42D40A247008B29E0 /* OmkarChougule_Demo_Portfolio */;
-			targetProxy = 42ED88062D40A24A008B29E0 /* PBXContainerItemProxy */;
+			targetProxy = 424936212D480111007F48FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -548,6 +535,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		424936242D480111007F48FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UCC8882MA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Image.OmkarChougule-Demo-PortfolioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmkarChougule_Demo_Portfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OmkarChougule_Demo_Portfolio";
+			};
+			name = Debug;
+		};
+		424936252D480111007F48FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UCC8882MA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Image.OmkarChougule-Demo-PortfolioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmkarChougule_Demo_Portfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OmkarChougule_Demo_Portfolio";
+			};
+			name = Release;
+		};
 		42ED880D2D40A24A008B29E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -721,85 +744,18 @@
 			};
 			name = Release;
 		};
-		42ED88132D40A24A008B29E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UCC8882MA3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Image.OmkarChougule-Demo-PortfolioTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmkarChougule_Demo_Portfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OmkarChougule_Demo_Portfolio";
-			};
-			name = Debug;
-		};
-		42ED88142D40A24A008B29E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UCC8882MA3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Image.OmkarChougule-Demo-PortfolioTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmkarChougule_Demo_Portfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OmkarChougule_Demo_Portfolio";
-			};
-			name = Release;
-		};
-		42ED88162D40A24A008B29E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UCC8882MA3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Image.OmkarChougule-Demo-PortfolioUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OmkarChougule_Demo_Portfolio;
-			};
-			name = Debug;
-		};
-		42ED88172D40A24A008B29E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UCC8882MA3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Image.OmkarChougule-Demo-PortfolioUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OmkarChougule_Demo_Portfolio;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		424936232D480111007F48FA /* Build configuration list for PBXNativeTarget "OmkarChougule_Demo_PortfolioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424936242D480111007F48FA /* Debug */,
+				424936252D480111007F48FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		42ED87E02D40A247008B29E0 /* Build configuration list for PBXProject "OmkarChougule_Demo_Portfolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -814,24 +770,6 @@
 			buildConfigurations = (
 				42ED88102D40A24A008B29E0 /* Debug */,
 				42ED88112D40A24A008B29E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42ED88122D40A24A008B29E0 /* Build configuration list for PBXNativeTarget "OmkarChougule_Demo_PortfolioTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42ED88132D40A24A008B29E0 /* Debug */,
-				42ED88142D40A24A008B29E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42ED88152D40A24A008B29E0 /* Build configuration list for PBXNativeTarget "OmkarChougule_Demo_PortfolioUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42ED88162D40A24A008B29E0 /* Debug */,
-				42ED88172D40A24A008B29E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
